@@ -1,0 +1,22 @@
+{
+  "bars": 920,
+  "columns": [
+    "open_time_ms",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume"
+  ],
+  "first_open_time_ms": 1704067200000,
+  "first_open_time_utc": "2024-01-01T00:00:00Z",
+  "generator": "scripts/fetch_binance.py --make-sample",
+  "interval": "1h",
+  "last_open_time_ms": 1707375600000,
+  "last_open_time_utc": "2024-02-08T07:00:00Z",
+  "notes": "SAMPLE DATA - deterministic seeded random walk around 60000. Not real market prices. For offline runs and tests only.",
+  "seed": 20240101,
+  "source": "sample (not real market)",
+  "source_url": null,
+  "symbol": "BTCUSDT"
+}

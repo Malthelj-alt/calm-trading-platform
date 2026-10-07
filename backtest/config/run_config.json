@@ -1,0 +1,125 @@
+{
+  "timezone": "Europe/Copenhagen",
+  "windows": [
+    {
+      "name": "2025-01",
+      "start": "2025-01-01T00:00:00",
+      "end": "2025-02-01T00:00:00"
+    },
+    {
+      "name": "2025-02",
+      "start": "2025-02-01T00:00:00",
+      "end": "2025-03-01T00:00:00"
+    },
+    {
+      "name": "2025-03",
+      "start": "2025-03-01T00:00:00",
+      "end": "2025-04-01T00:00:00"
+    },
+    {
+      "name": "2025-04",
+      "start": "2025-04-01T00:00:00",
+      "end": "2025-05-01T00:00:00"
+    },
+    {
+      "name": "2025-05",
+      "start": "2025-05-01T00:00:00",
+      "end": "2025-06-01T00:00:00"
+    },
+    {
+      "name": "2025-06",
+      "start": "2025-06-01T00:00:00",
+      "end": "2025-07-01T00:00:00"
+    },
+    {
+      "name": "2025-07",
+      "start": "2025-07-01T00:00:00",
+      "end": "2025-08-01T00:00:00"
+    },
+    {
+      "name": "2025-08",
+      "start": "2025-08-01T00:00:00",
+      "end": "2025-09-01T00:00:00"
+    },
+    {
+      "name": "2025-09",
+      "start": "2025-09-01T00:00:00",
+      "end": "2025-10-01T00:00:00"
+    },
+    {
+      "name": "2025-10",
+      "start": "2025-10-01T00:00:00",
+      "end": "2025-11-01T00:00:00"
+    },
+    {
+      "name": "2025-11",
+      "start": "2025-11-01T00:00:00",
+      "end": "2025-12-01T00:00:00"
+    },
+    {
+      "name": "2025-12",
+      "start": "2025-12-01T00:00:00",
+      "end": "2026-01-01T00:00:00"
+    },
+    {
+      "name": "2026-01",
+      "start": "2026-01-01T00:00:00",
+      "end": "2026-02-01T00:00:00"
+    },
+    {
+      "name": "2026-02",
+      "start": "2026-02-01T00:00:00",
+      "end": "2026-03-01T00:00:00"
+    },
+    {
+      "name": "2026-03",
+      "start": "2026-03-01T00:00:00",
+      "end": "2026-04-01T00:00:00"
+    },
+    {
+      "name": "2026-04",
+      "start": "2026-04-01T00:00:00",
+      "end": "2026-05-01T00:00:00"
+    },
+    {
+      "name": "2026-05",
+      "start": "2026-05-01T00:00:00",
+      "end": "2026-06-01T00:00:00"
+    },
+    {
+      "name": "2026-06",
+      "start": "2026-06-01T00:00:00",
+      "end": "2026-07-01T00:00:00"
+    },
+    {
+      "name": "2026-07",
+      "start": "2026-07-01T00:00:00",
+      "end": "2026-08-01T00:00:00"
+    },
+    {
+      "name": "2026-08",
+      "start": "2026-08-01T00:00:00",
+      "end": "2026-09-01T00:00:00"
+    },
+    {
+      "name": "2026-09",
+      "start": "2026-09-01T00:00:00",
+      "end": "2026-10-01T00:00:00"
+    }
+  ],
+  "starting_capital_dkk": 100000.0,
+  "fx_to_dkk": 6.9,
+  "fx_source_note": "PLACEHOLDER constant USD->DKK rate (approx.), applied to every window and strategy. Replace with a rate you trust; it only scales DKK amounts, not percentage returns.",
+  "fee_bps": 0.0,
+  "fees_unverified": true,
+  "slippage_bps": 5.0,
+  "bar_interval": "1h",
+  "dataset_sha256": "fc4010122deed753428b057638e4459af2def6cf6d6716ee01c6d20936ce6dec",
+  "dataset_note": "This hash is the SAMPLE dataset. After scripts/fetch_data.py, put the new hash here; the runner refuses a mismatch.",
+  "force_flat_at_window_end": true,
+  "strategies": [
+    "buy_hold",
+    "calm_vol_placeholder",
+    "calm_user"
+  ]
+}

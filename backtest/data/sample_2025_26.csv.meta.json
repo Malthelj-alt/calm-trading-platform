@@ -1,0 +1,28 @@
+{
+  "columns": [
+    "ts_utc",
+    "ts_dk",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume"
+  ],
+  "file": "sample_2025_26.csv",
+  "first_ts_dk": "2025-01-01T00:00:00+01:00",
+  "first_ts_utc": "2024-12-31T23:00:00+00:00",
+  "format": "csv",
+  "interval": "1h",
+  "label": "SAMPLE",
+  "last_ts_dk": "2026-09-30T23:00:00+02:00",
+  "last_ts_utc": "2026-09-30T21:00:00+00:00",
+  "quote_currency": "USD",
+  "rows": 15311,
+  "seed": 2526,
+  "sha256": "fc4010122deed753428b057638e4459af2def6cf6d6716ee01c6d20936ce6dec",
+  "source": "synthetic (scripts/make_sample_data.py, seeded geometric random walk)",
+  "symbol": "SAMPLE",
+  "timestamp_convention": "bar open time; ts_utc authoritative, ts_dk = ts_utc in Europe/Copenhagen",
+  "timezone": "Europe/Copenhagen",
+  "warning": "SYNTHETIC DATA - NOT MARKET PRICES. Results from this file are SAMPLE only."
+}

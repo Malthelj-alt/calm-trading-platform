@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.db
+.env
+.DS_Store
+# Downloaded market data (fetch it again with the scripts)
+platform/data/btcusdt_1h.csv
+backtest/data/real_*.csv

@@ -1,0 +1,1194 @@
+{
+  "data_label": "SAMPLE",
+  "dataset_sha256": "fc4010122deed753428b057638e4459af2def6cf6d6716ee01c6d20936ce6dec",
+  "config_path": "config/run_config.json",
+  "config": {
+    "timezone": "Europe/Copenhagen",
+    "windows": [
+      {
+        "name": "2025-01",
+        "start": "2025-01-01T00:00:00",
+        "end": "2025-02-01T00:00:00"
+      },
+      {
+        "name": "2025-02",
+        "start": "2025-02-01T00:00:00",
+        "end": "2025-03-01T00:00:00"
+      },
+      {
+        "name": "2025-03",
+        "start": "2025-03-01T00:00:00",
+        "end": "2025-04-01T00:00:00"
+      },
+      {
+        "name": "2025-04",
+        "start": "2025-04-01T00:00:00",
+        "end": "2025-05-01T00:00:00"
+      },
+      {
+        "name": "2025-05",
+        "start": "2025-05-01T00:00:00",
+        "end": "2025-06-01T00:00:00"
+      },
+      {
+        "name": "2025-06",
+        "start": "2025-06-01T00:00:00",
+        "end": "2025-07-01T00:00:00"
+      },
+      {
+        "name": "2025-07",
+        "start": "2025-07-01T00:00:00",
+        "end": "2025-08-01T00:00:00"
+      },
+      {
+        "name": "2025-08",
+        "start": "2025-08-01T00:00:00",
+        "end": "2025-09-01T00:00:00"
+      },
+      {
+        "name": "2025-09",
+        "start": "2025-09-01T00:00:00",
+        "end": "2025-10-01T00:00:00"
+      },
+      {
+        "name": "2025-10",
+        "start": "2025-10-01T00:00:00",
+        "end": "2025-11-01T00:00:00"
+      },
+      {
+        "name": "2025-11",
+        "start": "2025-11-01T00:00:00",
+        "end": "2025-12-01T00:00:00"
+      },
+      {
+        "name": "2025-12",
+        "start": "2025-12-01T00:00:00",
+        "end": "2026-01-01T00:00:00"
+      },
+      {
+        "name": "2026-01",
+        "start": "2026-01-01T00:00:00",
+        "end": "2026-02-01T00:00:00"
+      },
+      {
+        "name": "2026-02",
+        "start": "2026-02-01T00:00:00",
+        "end": "2026-03-01T00:00:00"
+      },
+      {
+        "name": "2026-03",
+        "start": "2026-03-01T00:00:00",
+        "end": "2026-04-01T00:00:00"
+      },
+      {
+        "name": "2026-04",
+        "start": "2026-04-01T00:00:00",
+        "end": "2026-05-01T00:00:00"
+      },
+      {
+        "name": "2026-05",
+        "start": "2026-05-01T00:00:00",
+        "end": "2026-06-01T00:00:00"
+      },
+      {
+        "name": "2026-06",
+        "start": "2026-06-01T00:00:00",
+        "end": "2026-07-01T00:00:00"
+      },
+      {
+        "name": "2026-07",
+        "start": "2026-07-01T00:00:00",
+        "end": "2026-08-01T00:00:00"
+      },
+      {
+        "name": "2026-08",
+        "start": "2026-08-01T00:00:00",
+        "end": "2026-09-01T00:00:00"
+      },
+      {
+        "name": "2026-09",
+        "start": "2026-09-01T00:00:00",
+        "end": "2026-10-01T00:00:00"
+      }
+    ],
+    "starting_capital_dkk": 100000.0,
+    "fx_to_dkk": 6.9,
+    "fx_source_note": "PLACEHOLDER constant USD->DKK rate (approx.), applied to every window and strategy. Replace with a rate you trust; it only scales DKK amounts, not percentage returns.",
+    "fee_bps": 0.0,
+    "fees_unverified": true,
+    "slippage_bps": 5.0,
+    "bar_interval": "1h",
+    "dataset_sha256": "fc4010122deed753428b057638e4459af2def6cf6d6716ee01c6d20936ce6dec",
+    "dataset_note": "This hash is the SAMPLE dataset. After scripts/fetch_data.py, put the new hash here; the runner refuses a mismatch.",
+    "force_flat_at_window_end": true,
+    "strategies": [
+      "buy_hold",
+      "calm_vol_placeholder",
+      "calm_user"
+    ]
+  },
+  "config_without_strategy": {
+    "timezone": "Europe/Copenhagen",
+    "windows": [
+      {
+        "name": "2025-01",
+        "start": "2025-01-01T00:00:00",
+        "end": "2025-02-01T00:00:00"
+      },
+      {
+        "name": "2025-02",
+        "start": "2025-02-01T00:00:00",
+        "end": "2025-03-01T00:00:00"
+      },
+      {
+        "name": "2025-03",
+        "start": "2025-03-01T00:00:00",
+        "end": "2025-04-01T00:00:00"
+      },
+      {
+        "name": "2025-04",
+        "start": "2025-04-01T00:00:00",
+        "end": "2025-05-01T00:00:00"
+      },
+      {
+        "name": "2025-05",
+        "start": "2025-05-01T00:00:00",
+        "end": "2025-06-01T00:00:00"
+      },
+      {
+        "name": "2025-06",
+        "start": "2025-06-01T00:00:00",
+        "end": "2025-07-01T00:00:00"
+      },
+      {
+        "name": "2025-07",
+        "start": "2025-07-01T00:00:00",
+        "end": "2025-08-01T00:00:00"
+      },
+      {
+        "name": "2025-08",
+        "start": "2025-08-01T00:00:00",
+        "end": "2025-09-01T00:00:00"
+      },
+      {
+        "name": "2025-09",
+        "start": "2025-09-01T00:00:00",
+        "end": "2025-10-01T00:00:00"
+      },
+      {
+        "name": "2025-10",
+        "start": "2025-10-01T00:00:00",
+        "end": "2025-11-01T00:00:00"
+      },
+      {
+        "name": "2025-11",
+        "start": "2025-11-01T00:00:00",
+        "end": "2025-12-01T00:00:00"
+      },
+      {
+        "name": "2025-12",
+        "start": "2025-12-01T00:00:00",
+        "end": "2026-01-01T00:00:00"
+      },
+      {
+        "name": "2026-01",
+        "start": "2026-01-01T00:00:00",
+        "end": "2026-02-01T00:00:00"
+      },
+      {
+        "name": "2026-02",
+        "start": "2026-02-01T00:00:00",
+        "end": "2026-03-01T00:00:00"
+      },
+      {
+        "name": "2026-03",
+        "start": "2026-03-01T00:00:00",
+        "end": "2026-04-01T00:00:00"
+      },
+      {
+        "name": "2026-04",
+        "start": "2026-04-01T00:00:00",
+        "end": "2026-05-01T00:00:00"
+      },
+      {
+        "name": "2026-05",
+        "start": "2026-05-01T00:00:00",
+        "end": "2026-06-01T00:00:00"
+      },
+      {
+        "name": "2026-06",
+        "start": "2026-06-01T00:00:00",
+        "end": "2026-07-01T00:00:00"
+      },
+      {
+        "name": "2026-07",
+        "start": "2026-07-01T00:00:00",
+        "end": "2026-08-01T00:00:00"
+      },
+      {
+        "name": "2026-08",
+        "start": "2026-08-01T00:00:00",
+        "end": "2026-09-01T00:00:00"
+      },
+      {
+        "name": "2026-09",
+        "start": "2026-09-01T00:00:00",
+        "end": "2026-10-01T00:00:00"
+      }
+    ],
+    "starting_capital_dkk": 100000.0,
+    "fx_to_dkk": 6.9,
+    "fx_source_note": "PLACEHOLDER constant USD->DKK rate (approx.), applied to every window and strategy. Replace with a rate you trust; it only scales DKK amounts, not percentage returns.",
+    "fee_bps": 0.0,
+    "fees_unverified": true,
+    "slippage_bps": 5.0,
+    "bar_interval": "1h",
+    "dataset_sha256": "fc4010122deed753428b057638e4459af2def6cf6d6716ee01c6d20936ce6dec",
+    "dataset_note": "This hash is the SAMPLE dataset. After scripts/fetch_data.py, put the new hash here; the runner refuses a mismatch.",
+    "force_flat_at_window_end": true
+  },
+  "fees_unverified": true,
+  "windows": [
+    {
+      "name": "2025-01",
+      "start_local": "2025-01-01T00:00:00+01:00",
+      "end_local": "2025-02-01T00:00:00+01:00",
+      "start_utc": "2024-12-31T23:00:00+00:00",
+      "end_utc": "2025-01-31T23:00:00+00:00"
+    },
+    {
+      "name": "2025-02",
+      "start_local": "2025-02-01T00:00:00+01:00",
+      "end_local": "2025-03-01T00:00:00+01:00",
+      "start_utc": "2025-01-31T23:00:00+00:00",
+      "end_utc": "2025-02-28T23:00:00+00:00"
+    },
+    {
+      "name": "2025-03",
+      "start_local": "2025-03-01T00:00:00+01:00",
+      "end_local": "2025-04-01T00:00:00+02:00",
+      "start_utc": "2025-02-28T23:00:00+00:00",
+      "end_utc": "2025-03-31T22:00:00+00:00"
+    },
+    {
+      "name": "2025-04",
+      "start_local": "2025-04-01T00:00:00+02:00",
+      "end_local": "2025-05-01T00:00:00+02:00",
+      "start_utc": "2025-03-31T22:00:00+00:00",
+      "end_utc": "2025-04-30T22:00:00+00:00"
+    },
+    {
+      "name": "2025-05",
+      "start_local": "2025-05-01T00:00:00+02:00",
+      "end_local": "2025-06-01T00:00:00+02:00",
+      "start_utc": "2025-04-30T22:00:00+00:00",
+      "end_utc": "2025-05-31T22:00:00+00:00"
+    },
+    {
+      "name": "2025-06",
+      "start_local": "2025-06-01T00:00:00+02:00",
+      "end_local": "2025-07-01T00:00:00+02:00",
+      "start_utc": "2025-05-31T22:00:00+00:00",
+      "end_utc": "2025-06-30T22:00:00+00:00"
+    },
+    {
+      "name": "2025-07",
+      "start_local": "2025-07-01T00:00:00+02:00",
+      "end_local": "2025-08-01T00:00:00+02:00",
+      "start_utc": "2025-06-30T22:00:00+00:00",
+      "end_utc": "2025-07-31T22:00:00+00:00"
+    },
+    {
+      "name": "2025-08",
+      "start_local": "2025-08-01T00:00:00+02:00",
+      "end_local": "2025-09-01T00:00:00+02:00",
+      "start_utc": "2025-07-31T22:00:00+00:00",
+      "end_utc": "2025-08-31T22:00:00+00:00"
+    },
+    {
+      "name": "2025-09",
+      "start_local": "2025-09-01T00:00:00+02:00",
+      "end_local": "2025-10-01T00:00:00+02:00",
+      "start_utc": "2025-08-31T22:00:00+00:00",
+      "end_utc": "2025-09-30T22:00:00+00:00"
+    },
+    {
+      "name": "2025-10",
+      "start_local": "2025-10-01T00:00:00+02:00",
+      "end_local": "2025-11-01T00:00:00+01:00",
+      "start_utc": "2025-09-30T22:00:00+00:00",
+      "end_utc": "2025-10-31T23:00:00+00:00"
+    },
+    {
+      "name": "2025-11",
+      "start_local": "2025-11-01T00:00:00+01:00",
+      "end_local": "2025-12-01T00:00:00+01:00",
+      "start_utc": "2025-10-31T23:00:00+00:00",
+      "end_utc": "2025-11-30T23:00:00+00:00"
+    },
+    {
+      "name": "2025-12",
+      "start_local": "2025-12-01T00:00:00+01:00",
+      "end_local": "2026-01-01T00:00:00+01:00",
+      "start_utc": "2025-11-30T23:00:00+00:00",
+      "end_utc": "2025-12-31T23:00:00+00:00"
+    },
+    {
+      "name": "2026-01",
+      "start_local": "2026-01-01T00:00:00+01:00",
+      "end_local": "2026-02-01T00:00:00+01:00",
+      "start_utc": "2025-12-31T23:00:00+00:00",
+      "end_utc": "2026-01-31T23:00:00+00:00"
+    },
+    {
+      "name": "2026-02",
+      "start_local": "2026-02-01T00:00:00+01:00",
+      "end_local": "2026-03-01T00:00:00+01:00",
+      "start_utc": "2026-01-31T23:00:00+00:00",
+      "end_utc": "2026-02-28T23:00:00+00:00"
+    },
+    {
+      "name": "2026-03",
+      "start_local": "2026-03-01T00:00:00+01:00",
+      "end_local": "2026-04-01T00:00:00+02:00",
+      "start_utc": "2026-02-28T23:00:00+00:00",
+      "end_utc": "2026-03-31T22:00:00+00:00"
+    },
+    {
+      "name": "2026-04",
+      "start_local": "2026-04-01T00:00:00+02:00",
+      "end_local": "2026-05-01T00:00:00+02:00",
+      "start_utc": "2026-03-31T22:00:00+00:00",
+      "end_utc": "2026-04-30T22:00:00+00:00"
+    },
+    {
+      "name": "2026-05",
+      "start_local": "2026-05-01T00:00:00+02:00",
+      "end_local": "2026-06-01T00:00:00+02:00",
+      "start_utc": "2026-04-30T22:00:00+00:00",
+      "end_utc": "2026-05-31T22:00:00+00:00"
+    },
+    {
+      "name": "2026-06",
+      "start_local": "2026-06-01T00:00:00+02:00",
+      "end_local": "2026-07-01T00:00:00+02:00",
+      "start_utc": "2026-05-31T22:00:00+00:00",
+      "end_utc": "2026-06-30T22:00:00+00:00"
+    },
+    {
+      "name": "2026-07",
+      "start_local": "2026-07-01T00:00:00+02:00",
+      "end_local": "2026-08-01T00:00:00+02:00",
+      "start_utc": "2026-06-30T22:00:00+00:00",
+      "end_utc": "2026-07-31T22:00:00+00:00"
+    },
+    {
+      "name": "2026-08",
+      "start_local": "2026-08-01T00:00:00+02:00",
+      "end_local": "2026-09-01T00:00:00+02:00",
+      "start_utc": "2026-07-31T22:00:00+00:00",
+      "end_utc": "2026-08-31T22:00:00+00:00"
+    },
+    {
+      "name": "2026-09",
+      "start_local": "2026-09-01T00:00:00+02:00",
+      "end_local": "2026-10-01T00:00:00+02:00",
+      "start_utc": "2026-08-31T22:00:00+00:00",
+      "end_utc": "2026-09-30T22:00:00+00:00"
+    }
+  ],
+  "strategies": {
+    "buy_hold": {
+      "name": "buy_hold",
+      "class": "BuyHold",
+      "is_placeholder": false,
+      "entry": "open of first bar in window",
+      "exit": "close of last bar at or before window end",
+      "params": {}
+    },
+    "calm_vol_placeholder": {
+      "name": "calm_vol_placeholder",
+      "class": "CalmVolPlaceholder",
+      "is_placeholder": true,
+      "execution_lag_bars": 1,
+      "params_frozen_as_of": "2024-12-31",
+      "params": {
+        "is_placeholder": true,
+        "vol_lookback_bars": 24,
+        "vol_threshold_per_bar": 0.006,
+        "min_returns_required": 24
+      }
+    },
+    "calm_user": {
+      "name": "calm_user",
+      "class": "CalmUserRules",
+      "is_placeholder": true,
+      "execution_lag_bars": 1,
+      "params_frozen_as_of": "2024-12-31",
+      "params": {
+        "is_placeholder": true,
+        "vol_lookback_bars": 24,
+        "vol_threshold_per_bar": 0.006,
+        "min_returns_required": 24
+      }
+    }
+  },
+  "window_end_states": [
+    {
+      "strategy": "buy_hold",
+      "window": "2025-01",
+      "window_start_local": "2025-01-01T00:00:00+01:00",
+      "window_end_local": "2025-02-01T00:00:00+01:00",
+      "window_start_utc": "2024-12-31T23:00:00+00:00",
+      "window_end_utc": "2025-01-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 91417.59341449672,
+      "final_value_dkk": 91417.59341449672,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-02",
+      "window_start_local": "2025-02-01T00:00:00+01:00",
+      "window_end_local": "2025-03-01T00:00:00+01:00",
+      "window_start_utc": "2025-01-31T23:00:00+00:00",
+      "window_end_utc": "2025-02-28T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 99382.81881391656,
+      "final_value_dkk": 99382.81881391656,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-03",
+      "window_start_local": "2025-03-01T00:00:00+01:00",
+      "window_end_local": "2025-04-01T00:00:00+02:00",
+      "window_start_utc": "2025-02-28T23:00:00+00:00",
+      "window_end_utc": "2025-03-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 76205.39812334106,
+      "final_value_dkk": 76205.39812334106,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-04",
+      "window_start_local": "2025-04-01T00:00:00+02:00",
+      "window_end_local": "2025-05-01T00:00:00+02:00",
+      "window_start_utc": "2025-03-31T22:00:00+00:00",
+      "window_end_utc": "2025-04-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 109025.78002369586,
+      "final_value_dkk": 109025.78002369586,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-05",
+      "window_start_local": "2025-05-01T00:00:00+02:00",
+      "window_end_local": "2025-06-01T00:00:00+02:00",
+      "window_start_utc": "2025-04-30T22:00:00+00:00",
+      "window_end_utc": "2025-05-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 104852.6173294541,
+      "final_value_dkk": 104852.6173294541,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-06",
+      "window_start_local": "2025-06-01T00:00:00+02:00",
+      "window_end_local": "2025-07-01T00:00:00+02:00",
+      "window_start_utc": "2025-05-31T22:00:00+00:00",
+      "window_end_utc": "2025-06-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 104409.91960588034,
+      "final_value_dkk": 104409.91960588034,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-07",
+      "window_start_local": "2025-07-01T00:00:00+02:00",
+      "window_end_local": "2025-08-01T00:00:00+02:00",
+      "window_start_utc": "2025-06-30T22:00:00+00:00",
+      "window_end_utc": "2025-07-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 98838.08525200878,
+      "final_value_dkk": 98838.08525200878,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-08",
+      "window_start_local": "2025-08-01T00:00:00+02:00",
+      "window_end_local": "2025-09-01T00:00:00+02:00",
+      "window_start_utc": "2025-07-31T22:00:00+00:00",
+      "window_end_utc": "2025-08-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 104727.73435841514,
+      "final_value_dkk": 104727.73435841514,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-09",
+      "window_start_local": "2025-09-01T00:00:00+02:00",
+      "window_end_local": "2025-10-01T00:00:00+02:00",
+      "window_start_utc": "2025-08-31T22:00:00+00:00",
+      "window_end_utc": "2025-09-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 100947.96798208506,
+      "final_value_dkk": 100947.96798208506,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-10",
+      "window_start_local": "2025-10-01T00:00:00+02:00",
+      "window_end_local": "2025-11-01T00:00:00+01:00",
+      "window_start_utc": "2025-09-30T22:00:00+00:00",
+      "window_end_utc": "2025-10-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 111163.99471432372,
+      "final_value_dkk": 111163.99471432372,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-11",
+      "window_start_local": "2025-11-01T00:00:00+01:00",
+      "window_end_local": "2025-12-01T00:00:00+01:00",
+      "window_start_utc": "2025-10-31T23:00:00+00:00",
+      "window_end_utc": "2025-11-30T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 102705.74429799804,
+      "final_value_dkk": 102705.74429799804,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2025-12",
+      "window_start_local": "2025-12-01T00:00:00+01:00",
+      "window_end_local": "2026-01-01T00:00:00+01:00",
+      "window_start_utc": "2025-11-30T23:00:00+00:00",
+      "window_end_utc": "2025-12-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 93216.74487116943,
+      "final_value_dkk": 93216.74487116943,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-01",
+      "window_start_local": "2026-01-01T00:00:00+01:00",
+      "window_end_local": "2026-02-01T00:00:00+01:00",
+      "window_start_utc": "2025-12-31T23:00:00+00:00",
+      "window_end_utc": "2026-01-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 102942.09528487714,
+      "final_value_dkk": 102942.09528487714,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-02",
+      "window_start_local": "2026-02-01T00:00:00+01:00",
+      "window_end_local": "2026-03-01T00:00:00+01:00",
+      "window_start_utc": "2026-01-31T23:00:00+00:00",
+      "window_end_utc": "2026-02-28T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 125568.3905970404,
+      "final_value_dkk": 125568.3905970404,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-03",
+      "window_start_local": "2026-03-01T00:00:00+01:00",
+      "window_end_local": "2026-04-01T00:00:00+02:00",
+      "window_start_utc": "2026-02-28T23:00:00+00:00",
+      "window_end_utc": "2026-03-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 86630.9841323069,
+      "final_value_dkk": 86630.9841323069,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-04",
+      "window_start_local": "2026-04-01T00:00:00+02:00",
+      "window_end_local": "2026-05-01T00:00:00+02:00",
+      "window_start_utc": "2026-03-31T22:00:00+00:00",
+      "window_end_utc": "2026-04-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 93788.34683515836,
+      "final_value_dkk": 93788.34683515836,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-05",
+      "window_start_local": "2026-05-01T00:00:00+02:00",
+      "window_end_local": "2026-06-01T00:00:00+02:00",
+      "window_start_utc": "2026-04-30T22:00:00+00:00",
+      "window_end_utc": "2026-05-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 108181.7614984687,
+      "final_value_dkk": 108181.7614984687,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-06",
+      "window_start_local": "2026-06-01T00:00:00+02:00",
+      "window_end_local": "2026-07-01T00:00:00+02:00",
+      "window_start_utc": "2026-05-31T22:00:00+00:00",
+      "window_end_utc": "2026-06-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 103747.8854977394,
+      "final_value_dkk": 103747.8854977394,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-07",
+      "window_start_local": "2026-07-01T00:00:00+02:00",
+      "window_end_local": "2026-08-01T00:00:00+02:00",
+      "window_start_utc": "2026-06-30T22:00:00+00:00",
+      "window_end_utc": "2026-07-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 103187.41416116264,
+      "final_value_dkk": 103187.41416116264,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-08",
+      "window_start_local": "2026-08-01T00:00:00+02:00",
+      "window_end_local": "2026-09-01T00:00:00+02:00",
+      "window_start_utc": "2026-07-31T22:00:00+00:00",
+      "window_end_utc": "2026-08-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 118775.40076727228,
+      "final_value_dkk": 118775.40076727228,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "buy_hold",
+      "window": "2026-09",
+      "window_start_local": "2026-09-01T00:00:00+02:00",
+      "window_end_local": "2026-10-01T00:00:00+02:00",
+      "window_start_utc": "2026-08-31T22:00:00+00:00",
+      "window_end_utc": "2026-09-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 96391.32511214825,
+      "final_value_dkk": 96391.32511214825,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-01",
+      "window_start_local": "2025-01-01T00:00:00+01:00",
+      "window_end_local": "2025-02-01T00:00:00+01:00",
+      "window_start_utc": "2024-12-31T23:00:00+00:00",
+      "window_end_utc": "2025-01-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 90270.13150852051,
+      "final_value_dkk": 90270.13150852051,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-02",
+      "window_start_local": "2025-02-01T00:00:00+01:00",
+      "window_end_local": "2025-03-01T00:00:00+01:00",
+      "window_start_utc": "2025-01-31T23:00:00+00:00",
+      "window_end_utc": "2025-02-28T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 96289.30904491963,
+      "final_value_dkk": 96289.30904491963,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-03",
+      "window_start_local": "2025-03-01T00:00:00+01:00",
+      "window_end_local": "2025-04-01T00:00:00+02:00",
+      "window_start_utc": "2025-02-28T23:00:00+00:00",
+      "window_end_utc": "2025-03-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 76531.77828516398,
+      "final_value_dkk": 76531.77828516398,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-04",
+      "window_start_local": "2025-04-01T00:00:00+02:00",
+      "window_end_local": "2025-05-01T00:00:00+02:00",
+      "window_start_utc": "2025-03-31T22:00:00+00:00",
+      "window_end_utc": "2025-04-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 105405.27083305351,
+      "final_value_dkk": 105405.27083305351,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-05",
+      "window_start_local": "2025-05-01T00:00:00+02:00",
+      "window_end_local": "2025-06-01T00:00:00+02:00",
+      "window_start_utc": "2025-04-30T22:00:00+00:00",
+      "window_end_utc": "2025-05-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 100579.32062382507,
+      "final_value_dkk": 100579.32062382507,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-06",
+      "window_start_local": "2025-06-01T00:00:00+02:00",
+      "window_end_local": "2025-07-01T00:00:00+02:00",
+      "window_start_utc": "2025-05-31T22:00:00+00:00",
+      "window_end_utc": "2025-06-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 103037.17438304218,
+      "final_value_dkk": 103037.17438304218,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-07",
+      "window_start_local": "2025-07-01T00:00:00+02:00",
+      "window_end_local": "2025-08-01T00:00:00+02:00",
+      "window_start_utc": "2025-06-30T22:00:00+00:00",
+      "window_end_utc": "2025-07-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 98418.4877667018,
+      "final_value_dkk": 98418.4877667018,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-08",
+      "window_start_local": "2025-08-01T00:00:00+02:00",
+      "window_end_local": "2025-09-01T00:00:00+02:00",
+      "window_start_utc": "2025-07-31T22:00:00+00:00",
+      "window_end_utc": "2025-08-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 102628.38193554158,
+      "final_value_dkk": 102628.38193554158,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-09",
+      "window_start_local": "2025-09-01T00:00:00+02:00",
+      "window_end_local": "2025-10-01T00:00:00+02:00",
+      "window_start_utc": "2025-08-31T22:00:00+00:00",
+      "window_end_utc": "2025-09-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 99587.51248475291,
+      "final_value_dkk": 99587.51248475291,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-10",
+      "window_start_local": "2025-10-01T00:00:00+02:00",
+      "window_end_local": "2025-11-01T00:00:00+01:00",
+      "window_start_utc": "2025-09-30T22:00:00+00:00",
+      "window_end_utc": "2025-10-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 112119.89399560992,
+      "final_value_dkk": 112119.89399560992,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-11",
+      "window_start_local": "2025-11-01T00:00:00+01:00",
+      "window_end_local": "2025-12-01T00:00:00+01:00",
+      "window_start_utc": "2025-10-31T23:00:00+00:00",
+      "window_end_utc": "2025-11-30T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 105408.0148870243,
+      "final_value_dkk": 105408.0148870243,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2025-12",
+      "window_start_local": "2025-12-01T00:00:00+01:00",
+      "window_end_local": "2026-01-01T00:00:00+01:00",
+      "window_start_utc": "2025-11-30T23:00:00+00:00",
+      "window_end_utc": "2025-12-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 96830.66067540493,
+      "final_value_dkk": 96830.66067540493,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-01",
+      "window_start_local": "2026-01-01T00:00:00+01:00",
+      "window_end_local": "2026-02-01T00:00:00+01:00",
+      "window_start_utc": "2025-12-31T23:00:00+00:00",
+      "window_end_utc": "2026-01-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 99946.5934069079,
+      "final_value_dkk": 99946.5934069079,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-02",
+      "window_start_local": "2026-02-01T00:00:00+01:00",
+      "window_end_local": "2026-03-01T00:00:00+01:00",
+      "window_start_utc": "2026-01-31T23:00:00+00:00",
+      "window_end_utc": "2026-02-28T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 123951.98173684411,
+      "final_value_dkk": 123951.98173684411,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-03",
+      "window_start_local": "2026-03-01T00:00:00+01:00",
+      "window_end_local": "2026-04-01T00:00:00+02:00",
+      "window_start_utc": "2026-02-28T23:00:00+00:00",
+      "window_end_utc": "2026-03-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 86870.91837982606,
+      "final_value_dkk": 86870.91837982606,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-04",
+      "window_start_local": "2026-04-01T00:00:00+02:00",
+      "window_end_local": "2026-05-01T00:00:00+02:00",
+      "window_start_utc": "2026-03-31T22:00:00+00:00",
+      "window_end_utc": "2026-04-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 95186.27995397763,
+      "final_value_dkk": 95186.27995397763,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-05",
+      "window_start_local": "2026-05-01T00:00:00+02:00",
+      "window_end_local": "2026-06-01T00:00:00+02:00",
+      "window_start_utc": "2026-04-30T22:00:00+00:00",
+      "window_end_utc": "2026-05-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 108914.05355775618,
+      "final_value_dkk": 108914.05355775618,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-06",
+      "window_start_local": "2026-06-01T00:00:00+02:00",
+      "window_end_local": "2026-07-01T00:00:00+02:00",
+      "window_start_utc": "2026-05-31T22:00:00+00:00",
+      "window_end_utc": "2026-06-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 107196.43965995382,
+      "final_value_dkk": 107196.43965995382,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-07",
+      "window_start_local": "2026-07-01T00:00:00+02:00",
+      "window_end_local": "2026-08-01T00:00:00+02:00",
+      "window_start_utc": "2026-06-30T22:00:00+00:00",
+      "window_end_utc": "2026-07-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 104426.23881741487,
+      "final_value_dkk": 104426.23881741487,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-08",
+      "window_start_local": "2026-08-01T00:00:00+02:00",
+      "window_end_local": "2026-09-01T00:00:00+02:00",
+      "window_start_utc": "2026-07-31T22:00:00+00:00",
+      "window_end_utc": "2026-08-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 119851.02278564317,
+      "final_value_dkk": 119851.02278564317,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_vol_placeholder",
+      "window": "2026-09",
+      "window_start_local": "2026-09-01T00:00:00+02:00",
+      "window_end_local": "2026-10-01T00:00:00+02:00",
+      "window_start_utc": "2026-08-31T22:00:00+00:00",
+      "window_end_utc": "2026-09-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 95567.12304351646,
+      "final_value_dkk": 95567.12304351646,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-01",
+      "window_start_local": "2025-01-01T00:00:00+01:00",
+      "window_end_local": "2025-02-01T00:00:00+01:00",
+      "window_start_utc": "2024-12-31T23:00:00+00:00",
+      "window_end_utc": "2025-01-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 90270.13150852051,
+      "final_value_dkk": 90270.13150852051,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-02",
+      "window_start_local": "2025-02-01T00:00:00+01:00",
+      "window_end_local": "2025-03-01T00:00:00+01:00",
+      "window_start_utc": "2025-01-31T23:00:00+00:00",
+      "window_end_utc": "2025-02-28T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 96289.30904491963,
+      "final_value_dkk": 96289.30904491963,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-03",
+      "window_start_local": "2025-03-01T00:00:00+01:00",
+      "window_end_local": "2025-04-01T00:00:00+02:00",
+      "window_start_utc": "2025-02-28T23:00:00+00:00",
+      "window_end_utc": "2025-03-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 76531.77828516398,
+      "final_value_dkk": 76531.77828516398,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-04",
+      "window_start_local": "2025-04-01T00:00:00+02:00",
+      "window_end_local": "2025-05-01T00:00:00+02:00",
+      "window_start_utc": "2025-03-31T22:00:00+00:00",
+      "window_end_utc": "2025-04-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 105405.27083305351,
+      "final_value_dkk": 105405.27083305351,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-05",
+      "window_start_local": "2025-05-01T00:00:00+02:00",
+      "window_end_local": "2025-06-01T00:00:00+02:00",
+      "window_start_utc": "2025-04-30T22:00:00+00:00",
+      "window_end_utc": "2025-05-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 100579.32062382507,
+      "final_value_dkk": 100579.32062382507,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-06",
+      "window_start_local": "2025-06-01T00:00:00+02:00",
+      "window_end_local": "2025-07-01T00:00:00+02:00",
+      "window_start_utc": "2025-05-31T22:00:00+00:00",
+      "window_end_utc": "2025-06-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 103037.17438304218,
+      "final_value_dkk": 103037.17438304218,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-07",
+      "window_start_local": "2025-07-01T00:00:00+02:00",
+      "window_end_local": "2025-08-01T00:00:00+02:00",
+      "window_start_utc": "2025-06-30T22:00:00+00:00",
+      "window_end_utc": "2025-07-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 98418.4877667018,
+      "final_value_dkk": 98418.4877667018,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-08",
+      "window_start_local": "2025-08-01T00:00:00+02:00",
+      "window_end_local": "2025-09-01T00:00:00+02:00",
+      "window_start_utc": "2025-07-31T22:00:00+00:00",
+      "window_end_utc": "2025-08-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 102628.38193554158,
+      "final_value_dkk": 102628.38193554158,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-09",
+      "window_start_local": "2025-09-01T00:00:00+02:00",
+      "window_end_local": "2025-10-01T00:00:00+02:00",
+      "window_start_utc": "2025-08-31T22:00:00+00:00",
+      "window_end_utc": "2025-09-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 99587.51248475291,
+      "final_value_dkk": 99587.51248475291,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-10",
+      "window_start_local": "2025-10-01T00:00:00+02:00",
+      "window_end_local": "2025-11-01T00:00:00+01:00",
+      "window_start_utc": "2025-09-30T22:00:00+00:00",
+      "window_end_utc": "2025-10-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 112119.89399560992,
+      "final_value_dkk": 112119.89399560992,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-11",
+      "window_start_local": "2025-11-01T00:00:00+01:00",
+      "window_end_local": "2025-12-01T00:00:00+01:00",
+      "window_start_utc": "2025-10-31T23:00:00+00:00",
+      "window_end_utc": "2025-11-30T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 105408.0148870243,
+      "final_value_dkk": 105408.0148870243,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2025-12",
+      "window_start_local": "2025-12-01T00:00:00+01:00",
+      "window_end_local": "2026-01-01T00:00:00+01:00",
+      "window_start_utc": "2025-11-30T23:00:00+00:00",
+      "window_end_utc": "2025-12-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 96830.66067540493,
+      "final_value_dkk": 96830.66067540493,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-01",
+      "window_start_local": "2026-01-01T00:00:00+01:00",
+      "window_end_local": "2026-02-01T00:00:00+01:00",
+      "window_start_utc": "2025-12-31T23:00:00+00:00",
+      "window_end_utc": "2026-01-31T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 99946.5934069079,
+      "final_value_dkk": 99946.5934069079,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-02",
+      "window_start_local": "2026-02-01T00:00:00+01:00",
+      "window_end_local": "2026-03-01T00:00:00+01:00",
+      "window_start_utc": "2026-01-31T23:00:00+00:00",
+      "window_end_utc": "2026-02-28T23:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 123951.98173684411,
+      "final_value_dkk": 123951.98173684411,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-03",
+      "window_start_local": "2026-03-01T00:00:00+01:00",
+      "window_end_local": "2026-04-01T00:00:00+02:00",
+      "window_start_utc": "2026-02-28T23:00:00+00:00",
+      "window_end_utc": "2026-03-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 86870.91837982606,
+      "final_value_dkk": 86870.91837982606,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-04",
+      "window_start_local": "2026-04-01T00:00:00+02:00",
+      "window_end_local": "2026-05-01T00:00:00+02:00",
+      "window_start_utc": "2026-03-31T22:00:00+00:00",
+      "window_end_utc": "2026-04-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 95186.27995397763,
+      "final_value_dkk": 95186.27995397763,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-05",
+      "window_start_local": "2026-05-01T00:00:00+02:00",
+      "window_end_local": "2026-06-01T00:00:00+02:00",
+      "window_start_utc": "2026-04-30T22:00:00+00:00",
+      "window_end_utc": "2026-05-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 108914.05355775618,
+      "final_value_dkk": 108914.05355775618,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-06",
+      "window_start_local": "2026-06-01T00:00:00+02:00",
+      "window_end_local": "2026-07-01T00:00:00+02:00",
+      "window_start_utc": "2026-05-31T22:00:00+00:00",
+      "window_end_utc": "2026-06-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 107196.43965995382,
+      "final_value_dkk": 107196.43965995382,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-07",
+      "window_start_local": "2026-07-01T00:00:00+02:00",
+      "window_end_local": "2026-08-01T00:00:00+02:00",
+      "window_start_utc": "2026-06-30T22:00:00+00:00",
+      "window_end_utc": "2026-07-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 104426.23881741487,
+      "final_value_dkk": 104426.23881741487,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-08",
+      "window_start_local": "2026-08-01T00:00:00+02:00",
+      "window_end_local": "2026-09-01T00:00:00+02:00",
+      "window_start_utc": "2026-07-31T22:00:00+00:00",
+      "window_end_utc": "2026-08-31T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 119851.02278564317,
+      "final_value_dkk": 119851.02278564317,
+      "final_value_equals_cash": true
+    },
+    {
+      "strategy": "calm_user",
+      "window": "2026-09",
+      "window_start_local": "2026-09-01T00:00:00+02:00",
+      "window_end_local": "2026-10-01T00:00:00+02:00",
+      "window_start_utc": "2026-08-31T22:00:00+00:00",
+      "window_end_utc": "2026-09-30T22:00:00+00:00",
+      "final_position": 0.0,
+      "final_cash_dkk": 95567.12304351646,
+      "final_value_dkk": 95567.12304351646,
+      "final_value_equals_cash": true
+    }
+  ]
+}
